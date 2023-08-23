@@ -1,0 +1,41 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: lightskyblue;
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+    font-size: 24px;
+}
+
+
+/* untuk table */
+@media screen and (min-width: 576px){
+    .container{
+        width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        background-color: lightpink;
+    }
+    .title{
+        font-size: 30px;
+    }
+}
+
+/* untuk desptop */
+@media screen and (min-width: 868px){
+    .container{
+        width: 960px;
+        background-color: lightcoral;
+    }
+    .title{
+        font-size: 36px;
+    }
+}
